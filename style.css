@@ -200,4 +200,16 @@ header .content {
   cursor: pointer;
 }
 
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
