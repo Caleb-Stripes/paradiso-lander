@@ -102,10 +102,12 @@ footer {
 	grid-template-columns: 1fr minmax(320px, 452px) 1fr;
 	grid-template-areas: ". content .";
 	grid-gap: .8em;
-	.content { grid-area: content; }
 	margin: 40px 0 16px;
 	grid-area: footer;
 	text-align: center;
+	.content {
+		grid-area: content;
+	}
 }
 
 .primary {
@@ -211,4 +213,16 @@ a {
 
 .text-center {
 	text-align: center;
+}
+
+.social {
+	display: flex;
+	justify-content: center;
+	img {
+		width: 25px;
+		height: 25px;
+	}
+	a {
+		margin: 10px;
+	}
 }

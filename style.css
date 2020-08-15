@@ -212,4 +212,16 @@ a {
   text-align: center;
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social img {
+  width: 25px;
+  height: 25px;
+}
+.social a {
+  margin: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
